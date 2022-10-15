@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.btn-modern{
+    margin: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius:5px ;
+    background-color:blue;
+    border-bottom-color: rgb(1, 1, 92);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+.btn-modern:hover{
+    
+    background-color: red;
+    transform: translateY(-5px);
+    color: black;
+    box-shadow: 0 5px 10px rgba(45, 206, 255, 0.5);
+}
